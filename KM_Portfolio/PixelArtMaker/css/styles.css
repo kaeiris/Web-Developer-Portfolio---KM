@@ -1,0 +1,155 @@
+html {
+  height: 100%;
+}
+
+body {
+    text-align: center;
+    background-image: url('/PixelArtMaker/images/backgroundimg.jpg');
+    background-repeat: no-repeat;
+  }
+  
+  
+  h1 {
+    font-family: Alegreya;
+    font-size: 4.375rem;
+    margin: 0.2em;
+    color: #BF3B7AFF;
+    text-align: center;
+    box-shadow: inset 1px 0 10px;
+    margin-bottom: 90px;
+  }
+
+  h2.design-canvas-text {
+    font-size: 2.5rem;
+    display: inline-block;
+    color: rgba(39, 17, 24, 0.89);
+    /* text-shadow: 2px 2px rgba(191, 59, 123, 0.74); */
+    ;
+  }
+
+  h2.gridTitle{
+     font-size: 1.5rem;    
+  }
+
+   #gridTool{
+    border: 7px inset rgba(147, 80, 66, .6509803921568628);
+    margin-top: 80px;
+    padding: 16px;
+     float: left;
+     margin-left: 100px;
+    box-shadow: inset 1px 0 10px;
+    border-radius: 8px;
+    opacity: 1.0;
+    display: block;
+    max-width: 100%;
+    width: 240px;
+    text-align: center;
+  }
+  
+  h2 {
+    font-family: Alegreya;
+    color: #9039BBFF;
+  }
+  
+
+  
+  table,
+  tr,
+  td {
+    border: 2.1px solid black;
+  }
+  
+  table {
+    border-collapse: collapse;
+    margin: 0 auto;
+    cursor: pointer;
+  
+  }
+  
+  
+  tr {
+    height: 20px;
+  }
+  
+  td {
+    width: 20px;
+  }
+  
+  input[type="number"] {
+    width: 3em;
+    height: 1em;
+    text-align: center;
+    
+  }
+  #inputHeight, #inputWidth{
+    border: 2px solid black;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 20px;
+    font-family: inherit;
+  }
+  
+  #sizePicker {
+  display: block;
+    text-align:center;
+  }
+
+  #pixelCanvas{
+    text-align: left;
+    margin-top: 210px;
+  }
+  
+  button{
+    border: 1px solid rgba(147, 80, 66, .6509803921568628);
+    font-size: 20px;
+    background-color:rgba(191, 59, 123, 0.822);;
+    color: white;
+  }
+  .erase-text {
+    font-weight: 600;
+    font-size: 1.45rem;
+    padding-right: 5px;
+    color: #9039BBFF;
+
+  }
+
+.dbl-click-text {
+  font-size: 1.45rem;
+  color: #9039BBFF;
+
+}
+.grid1-text, .grid2-text{
+  font-size: 1.37rem;
+  color: rgba(0, 0, 0, 0.849);
+}
+  input{
+    border: 3px solid #9FA3A2FF;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    padding: 3px;
+    width: 95px;
+    margin: 2px;
+    text-align: center;
+
+  }
+
+  input[type="color"] {
+    border: 2px solid salmon;
+    border-radius: 2px;
+    width: 6em;
+    height: 1.5em;
+    color: blue#736AFEFF;
+    text-align: center;
+
+  }
+  
+  input[type="Submit"] {
+    border: 2px solid salmon;
+    border-radius: 2px;
+    width: 4.4rem;
+    height: 1.5em;
+    color: blue#736AFEFF;
+    text-align: center;
+     padding: 2px;
+  }
+  

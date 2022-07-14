@@ -1,0 +1,337 @@
+body {
+  background-color: #f7ecd8;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+h1 {
+  padding-top: 50px;
+  font-size: 2.8rem;
+  color: rgba(247, 235, 213, 0.678);
+  text-shadow: 1px 1px rgba(0, 0, 0, 0.881);
+  text-align: center;
+  letter-spacing: 2px;
+  margin-bottom: 15%;
+  min-width: 50%;
+  font-family: "Lato", sans-serif;
+}
+
+
+.nav-button  {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  background-color: rgba(236, 226, 206, 0.89);
+  width: 95%;
+  margin-left: 2%;
+}
+
+.hide {
+  display: none;
+}
+
+.nav-button a {
+  text-decoration: none;
+  background-color: transparent;
+  padding: 8px 10px;
+  color: rgba(247, 235, 213, 0.904);
+  font-size: 1.6rem;
+  border-radius: 2%;
+  cursor: pointer;
+  margin-bottom: 10px;
+  text-align: center;
+  border: 1px solid rgba(99, 90, 86, 0.774);
+  color: rgba(22, 17, 15, 0.897);
+  box-shadow: 1px 1px 1px rgba(255, 68, 0, 0.253);
+  margin-top: 10px;
+ 
+}
+
+.dropdown-menu-wrapper {
+  position: relative;
+  display: inline-block;
+  margin-top:  10px;
+  width: 100%;
+}
+
+.fa-bars {
+  font-size: 2.0rem;
+  margin-left: 10px;
+  color: rgba(99, 90, 86, 0.815);
+}
+
+.dropdown-menu-wrapper:hover .nav-button a {
+  display: block;
+} 
+
+
+.nav-button a:hover {
+  text-decoration: underline;
+  color: rgba(255, 68, 0, 0.555);
+} 
+
+
+.footer-buttons button:hover {
+  color: white;
+  text-decoration: underline;
+  transition: 1.1s;
+  font-size: 1.1rem;
+}
+
+/* ============== container for skillset ======================*/
+.skillset-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+button.skillset-text-button {
+  background-color: rgba(255, 68, 0, 0.356);
+  box-shadow: inset 1px 1px 3px rgba(99, 90, 86, 0.815);
+  color: rgba(26, 4, 4, 0.733);
+  border: 1px solid rgba(255, 68, 0, 0.815);
+  font-size: 22px;
+  border-radius: 5px;
+  min-width: 300px;
+  margin-top: 25px;
+  padding: 1px 10px;
+  font-weight: 500;
+  font-family: "Quicksand", sans-serif;
+  text-shadow: 1px 1px rgba(247, 235, 213, 0.432);
+}
+
+p.project1-description,
+p.project2-description,
+p.project3-description {
+  margin-top: 120px;
+  display: inline-block;
+  font-size: 1.4rem;
+  font-family: "Quicksand", sans-serif;
+  color: rgba(0, 0, 0, 0.719);
+}
+
+/* ============== container for web projects ======================*/
+
+.projects-wrapper {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  width: 100%;
+  border-bottom: 10px solid #8a684e;
+  padding-bottom: 100px;
+}
+
+.project {
+  padding: 15px;
+  border-radius: 2%;
+  box-shadow: inset 1px -1px 2px rgba(99, 90, 86, 0.815);
+  background-color: rgba(255, 68, 0, 0.247);
+  max-width: 85%;
+
+  min-height: 300px;
+  margin-top: -3px;
+  margin-bottom: 10%;
+  border: 2px solid rgba(0, 0, 0, 0.37);
+}
+
+.project:hover {
+  background-color: rgba(155, 218, 187, 0.846);
+}
+/* .project1 {
+  min-height: 30px;
+}
+*/
+.project2 {
+  min-height: 335px;
+}
+
+.project3 {
+  min-height: 335px;
+}
+
+.project-text-button {
+  font-size: 0.8rem;
+  border-radius: 5%;
+  display: inline-block;
+  color: rgba(22, 17, 15, 0.897);
+  background-color: rgba(247, 235, 213, 0.678);
+  margin-top: 3%;
+  padding: 1px 5px;
+  margin-left: 20px;
+  box-shadow: 1px 1px 1px rgba(255, 68, 0, 0.219);
+}
+
+img {
+  border-radius: 2%;
+  border: 1px solid rgba(99, 90, 86, 0.815);
+  max-width: 95%;
+}
+img:hover {
+  border: 1px solid rgba(255, 68, 0, 0.281);
+  box-shadow: 1px 1px 1px orange;
+  transition-delay: 2ms;
+}
+
+/* ==============  bottom buttons of each web project ======================*/
+
+.skillset-text-button {
+  display: flex;
+  /* text-align: left; */
+  align-items: center;
+  text-align: center;
+}
+
+.star-rating {
+  font-size: 17px;
+  color: whitesmoke;
+  text-shadow: 1px 1px rgba(99, 90, 86, 0.774);
+  margin-left: 30px;
+}
+
+footer {
+  background-color: #8a684e93;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+  font-size: 0.9em;
+  cursor: pointer;
+  border-top: 1px solid #f7ecd8;
+  padding: 10px;
+  overflow: hidden;
+
+}
+
+.fa-envelope,
+.fa-phone-alt,
+.fa-github {
+  color: rgba(0, 0, 0, 0.719);
+  margin-left: 9px;
+}
+
+.fa-github {
+  font-size: 1.1rem;
+}
+
+.footer-text {
+  padding-left: 5px;
+}
+
+.footer-buttons button {
+  background-color: transparent;
+  color: rgba(247, 235, 213, 0.904);
+  padding: 2px 8px;
+  display: inline-block;
+  margin-left: 25px;
+  font-size: 0.8rem;
+  border-radius: 2%;
+  cursor: pointer;
+  margin-top: 25px;
+  border: none;
+}
+
+.footer-buttons button:hover {
+  text-decoration: none;
+  color: rgba(247, 235, 213, 0.904);
+  text-decoration: underline;
+}
+
+.footer-buttons a {
+  text-decoration: none;
+  color: rgba(247, 235, 213, 0.904);
+}
+
+
+
+/* dropdown menu for larger screen */
+
+@media (min-width: 651px){
+
+
+   i.fa-bars{
+     display: none;
+   }
+
+ 
+   .nav-button {
+     display: flex;
+     flex-direction: row;
+     justify-content: space-around;
+     background-color: transparent;
+     width: 100%;
+     margin-top: 10px;
+    margin-bottom: 100px;
+   }
+ 
+   .nav-button a {
+     display: block;
+     font-size: 1.4rem;
+     padding: 2px 20px;
+     background-color: transparent;
+     border: 1px solid rgba(247, 235, 213, 0.418);
+     color: rgba(22, 17, 15, 0.897);
+     box-shadow: 1px 1px 1px rgba(255, 68, 0, 0.253);
+
+    }
+   .nav-button a:hover {
+     text-decoration: underline;
+ 
+   } 
+     h1{
+       padding-top: 40px; 
+       width: 2.9rem;
+       width: 100%;
+     }
+ 
+     header {
+       box-sizing: border-box;
+       padding: 10px;
+       height: 130px;
+       padding-bottom: 140px;
+ 
+     }
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+/* ========= footer display for wide screen on desktop===== */
+@media (min-width: 791px){
+
+	footer{
+		height: 230px
+	}
+
+	.footer-buttons button {
+		margin-top: 45px;
+		font-size: 1.3rem;
+		padding: 3px 15px;
+	  }
+
+	  .fa-envelope, .fa-phone-alt, .fa-github {
+		color: rgba(0, 0, 0, 0.719);
+		margin-left: 9px;
+		cursor: pointer;
+		font-size: 1.4em;
+	}
+
+  .footer-buttons button:hover {
+    color: white;
+    text-decoration: underline;
+    transition: 1.1s;
+    font-size: 1.5rem;
+  }
+}
+
+ 
